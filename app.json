@@ -1,0 +1,88 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-11T15:27:05.849Z",
+  "item": {
+    "title": "Utrecht Flight Simulator",
+    "subtitle": "Fly over Utrecht Mesh with W/S/A/D, Q/E and R/F"
+  },
+  "map": {
+    "type": "webscene",
+    "path": "./scene.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "immersive",
+    "showHeader": false,
+    "theme": {
+      "mode": "dark",
+      "accent": "teal"
+    },
+    "layout": {
+      "left": {
+        "hidden": false,
+        "width": "265px",
+        "title": "Flight deck",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "flight-deck",
+            "title": "Flight controls"
+          }
+        ]
+      }
+    },
+    "layoutMode": "floating",
+    "widgets": [],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "rotterdam-flight",
+        "label": "Sculpted aircraft with mesh approach chase flight",
+        "bundlePath": "./runtime/behaviors/rotterdam-flight-c404a8bab68c5243.js",
+        "sourceSha256": "c404a8bab68c524302800b2ed583ca3b0203175e5c1204ffd5a2fc2dd4324897",
+        "modulePaths": [
+          "esri/Graphic",
+          "esri/geometry/Point",
+          "esri/layers/GraphicsLayer"
+        ],
+        "config": {
+          "startLongitude": 5.109766934547,
+          "startLatitude": 52.090472692256,
+          "startAltitude": 650
+        },
+        "mounts": [
+          "flight-deck"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-11T15:58:07.416Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "270d6002-b25b-42a4-899d-097f225bcd88",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-f3dd8f51-ad26-4d0a-9844-eed93209958b",
+      "mapName": "Photorealistic",
+      "viewMode": "3d",
+      "capturedAt": "2026-11-11T15:29:34.953Z",
+      "sourceItem": {
+        "itemId": "a9a6b04a8d1a46999ca7eae087388d54",
+        "portalUrl": "https://www.arcgis.com"
+      }
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": [],
+    "notes": [
+      "Opened from portal item a9a6b04a8d1a46999ca7eae087388d54 at https://www.arcgis.com/sharing/rest."
+    ]
+  }
+}

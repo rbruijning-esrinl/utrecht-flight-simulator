@@ -1,0 +1,15 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-11T15:29:34.953Z",
+  "title": "Utrecht Flight Simulator",
+  "authMode": "public",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-11T15-27-05-270d6002-b25b-42a4-899d-097f225bcd88/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "scene.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  }
+}

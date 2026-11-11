@@ -1,0 +1,99 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a1cb431917-layer-2",
+      "title": "Utrecht Integrated Mesh 3D Tiles",
+      "url": "https://tiles.arcgis.com/tiles/z2tnIkrLQ2BRzr6P/arcgis/rest/services/Utrecht__Integrated_Mesh_3D_Tiles_WGS84/3DTilesServer/tileset.json",
+      "visibility": true,
+      "itemId": "5d6a90388ed64b9495bdeb9e9feb6569",
+      "layerType": "IntegratedMesh3DTilesLayer"
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "1a1cb5084b6-layer-5",
+        "title": "World Imagery (WGS84 ground)",
+        "url": "https://wi.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer",
+        "itemId": "898f58f2ee824b3c97bae0698563a4b3",
+        "layerType": "ArcGISTiledMapServiceLayer"
+      }
+    ],
+    "id": "1a1cb50f54c-basemap-4",
+    "title": "World Imagery (WGS84)",
+    "elevationLayers": [
+      {
+        "id": "worldElevation",
+        "listMode": "show",
+        "title": "Terrain3D",
+        "url": "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer",
+        "layerType": "ArcGISTiledElevationServiceLayer"
+      }
+    ]
+  },
+  "ground": {
+    "layers": [
+      {
+        "id": "worldElevation",
+        "listMode": "show",
+        "title": "Terrain3D",
+        "url": "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer",
+        "layerType": "ArcGISTiledElevationServiceLayer"
+      }
+    ],
+    "transparency": 0,
+    "groundId": "world-elevation"
+  },
+  "heightModelInfo": {
+    "heightModel": "gravity_related_height",
+    "heightUnit": "meter"
+  },
+  "version": "1.40",
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 4326,
+    "wkid": 4326
+  },
+  "viewingMode": "global",
+  "initialState": {
+    "environment": {
+      "lighting": {
+        "type": "sun",
+        "datetime": 1710502770000,
+        "displayUTCOffset": 1
+      },
+      "atmosphereEnabled": true,
+      "starsEnabled": true,
+      "weather": {
+        "type": "sunny",
+        "cloudCover": 0.5
+      }
+    },
+    "viewpoint": {
+      "camera": {
+        "position": {
+          "spatialReference": {
+            "latestWkid": 4326,
+            "wkid": 4326
+          },
+          "x": 5.117843991325447,
+          "y": 52.0719903409673,
+          "z": 462.9360225033015
+        },
+        "heading": 0.0000012074182697257333,
+        "tilt": 70.00000000001519
+      },
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 4326,
+          "wkid": 4326
+        },
+        "xmin": 5.11747626143928,
+        "ymin": 52.07233087339186,
+        "xmax": 5.1182117212116145,
+        "ymax": 52.07267163018075
+      }
+    }
+  }
+}
